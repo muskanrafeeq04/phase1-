@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9bf0a5ee3a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div>
+        <nav>
+            <ul> 
+                <li><a href="index.html">About Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="about">
+        <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/logo2.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About FSD</h1>
+                        <p >FSD provide very good professional services, quality and trust worthy results, with careful audience targeting, we create highly functional user interface with the perfect misxture of simplicity, elegance and innovations for each of our clients</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('ourclients')">our clients</p>
+                        <p class="tab-links" onclick="opentab('branch')">branches</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="ourclients">
+                    <ul>
+                        <li><span>Bangalore Mirror</span><br>our business partner and clients</li>
+                        <li><span>Indian Express</span><br>our business partner and clients</li>
+                        <li><span>Deccan Herald</span><br>our business partner and clients</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="branch">
+                    <ul>
+                        <li><span>Bangalore</span><br>2 branch located with Head office is located in Bangalore</li>
+                        <li><span>Chennai</span><br>4 branches located in chennai</li>
+                        <li><span>Maharastra</span><br>5 branches located in Maharastra</li>
+                    </ul>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname)
+        {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    
+</body>
+</html>
