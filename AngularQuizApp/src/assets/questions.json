@@ -1,0 +1,189 @@
+{
+    "questions": [{
+        "questionText": " Which of the following browser supports HTML5 in its latest version?",
+        "options": [{
+                "text": " Apple Safari"
+               
+            },
+            {
+                "text": "Google Chrome"
+            },
+            {
+                "text": "Both of the above",
+                "correct": true
+            },
+            {
+                "text": "None of the above."
+            }
+        ],
+        "explanation": "Both of the above browsers supports HTML5."
+    },
+    {
+        "questionText": "Which of the following tag automatically focus one particular form field in HTML5?",
+        "options": [{
+                "text": "output"
+            },
+            {
+                "text": "placeholder"
+            },
+            {
+                "text": "autofocus",
+                "correct": true
+            },
+            {
+                "text": "required"
+                
+            }
+        ],
+        "explanation": "This is a simple one-step pattern, easily programmed in JavaScript at the time of document load, automatically focus one particular form field."
+    },
+    {
+        "questionText": "Which of the following is correct about Server Side Events(SSE) in HTML5?",
+        "options": [{
+                "text": "Using SSE you can push DOM events continously from your web server to the visitor's browser."
+            },
+            {
+                "text": "The event streaming approach opens a persistent connection to the server, sending data to the client when new information is available, eliminating the need for continuous polling."
+                
+            },
+            {
+                "text": " Server-sent events standardizes how we stream data from the server to the client."
+            },
+            {
+                "text": "All of the above.",
+                "correct": true
+            }
+        ],
+        "explanation": "All of the above options are correct."
+    },
+    {
+        "questionText": "Which of the following method returns a geolocation object in HTML5?",
+        "options": [{
+                "text": "navigator.geolocation",
+                "correct": true
+            },
+            {
+                "text": "browser.geolocation"
+               
+            },
+            {
+                "text": "API.geolocation"
+            },
+            {
+                "text": " None of the above."
+            }
+        ],
+        "explanation": "navigator.geolocation returns geolocation object."
+    },
+    {
+        "questionText": "Which of the following attribute triggers event before the document loads?",
+        "options": [{
+                "text": "offline"
+            },
+            {
+                "text": "onabort"
+            },
+            {
+                "text": "onload"
+            },
+            {
+                "text": "onbeforeonload",
+                "correct": true
+            }
+        ],
+        "explanation": "onbeforeonload − Triggers event before the document loads."
+    },
+    {
+        "questionText": "_____________is the replacement for cookies in HTML5.",
+        "options": [{
+                "text": "javascript"
+                
+            },
+            {
+                "text": "we beacons"
+            },
+            {
+                "text": "Local Storage",
+                "correct": true
+            },
+            {
+                "text": "All of the above."
+            }
+        ],
+        "explanation": "Local Storage is the replacement for cookies in HTML5."
+    },
+    {
+        "questionText": "___________is not a HTML5 tag",
+        "options": [{
+                "text": "<source>"
+            },
+            {
+                "text": "<video>"
+            },
+            {
+                "text": "<slider>",
+                "correct": true
+            },
+            {
+                "text": "All of the above."
+            
+            }
+        ],
+        "explanation": "<slider> is not a HTML5 tag ."
+    },
+    {
+        "questionText": "Which of the following element may contain not just links but also other interactive items, including the newly introduced command element.",
+        "options": [{
+                "text": "meter"
+            },
+            {
+                "text": "menu",
+                "correct": true
+            },
+            {
+                "text": "details"
+            },
+            {
+                "text": "progress"
+            }
+        ],
+        "explanation": "menu element may contain not just links but also other interactive items, including the newly introduced command element."
+    },
+    {
+        "questionText": "_____________feature was already introduced before HTML5.",
+        "options": [{
+                "text": "frames",
+                "correct": true
+            },
+            {
+                "text": "video"
+            },
+            {
+                "text": "canvas/SVG"
+            },
+            {
+                "text": "None of the above."
+            }
+        ],
+        "explanation": "Frames feature was already introduced before HTML5."
+    },
+    {
+        "questionText": "An article element contains-",
+        "options": [{
+                "text": "Text or embedded content",
+                "correct": true
+            },
+            {
+                "text": "Image"
+            },
+            {
+                "text": "Audio"
+            },
+            {
+                "text": "None"
+            }
+        ],
+        "explanation": "An article element contains Text or embedded content."
+    }
+]
+}
