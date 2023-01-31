@@ -1,0 +1,13 @@
+body{
+    background-image: url(bgg1.jpg);
+
+}
+.text-center{
+    color: white;
+    padding-top: 15%;
+    font-size: auto;
+}
+
+#chat{
+    padding-top: 5%;
+}
